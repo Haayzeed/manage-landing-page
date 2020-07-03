@@ -1,0 +1,345 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Be Vietnam', sans-serif;
+	overflow-x: hidden;
+}
+.menu-holder{
+	width: 100%;
+	height: 50px;
+	padding-top: 30px;
+}
+.menu-holder .logo{
+	padding-top: 10px;
+	float: left;
+}
+.menu-holder .main-menu{
+	list-style: none;
+	float: left;
+	margin-left: 15%;
+	line-height: 45px;
+}
+.main-menu li{
+	display: inline-block;
+}
+.main-menu li a{
+	text-transform: capitalize;
+	font-size: 14px;
+	color: hsl(229, 31%, 21%);
+	padding: 10px 20px;
+	font-weight: 500;
+}
+.main-menu li a:hover{
+	color: hsl(0, 94%, 66%);
+	text-decoration: none;
+}
+#check, #close{
+	display: none;
+}
+.checkbtn, .closebtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 45px;
+	margin-right: 10px;
+	cursor: pointer;
+	display: none;
+}
+.mini-menu-controller{
+	display: none;
+}
+.right-btn{
+	float: right !important;
+	list-style: none;
+}
+.right-btn-btn{
+	background: hsl(12, 88%, 59%);
+	border-radius: 50px;
+	font-size: 13px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.right-btn-btn:hover{
+	box-shadow: 2px 2px 10px hsl(12, 88%, 59%);
+}
+.banner{
+	margin-top: 3%;
+	position: relative;
+}
+.banner h1{
+	font-size: 56px;
+	margin-top: 50px;
+	color: hsl(228, 39%, 23%);
+}
+.banner p{
+	width: 75%;
+	font-size: 16px;
+	color:hsl(227, 12%, 61%);
+}
+.banner-btn{
+	background: hsl(12, 88%, 59%);
+	border-radius: 50px;
+	font-size: 13px;
+	padding: 10px 30px;
+}
+.banner-btn:hover{
+	box-shadow: 2px 2px 10px hsl(12, 88%, 59%);
+}
+.banner-img img{
+	max-width: 100%;
+	height: 450px;
+}
+.overlay-img{
+	position: absolute;
+	top: -65%;
+	right: -20%;
+	z-index: -1;
+}
+.overlay-img img{
+	max-width: 90%;
+	height: 700px;
+}
+.about{
+	margin-top: 10%;
+	position: relative;
+}
+.about h1{
+	color: hsl(228, 39%, 23%);
+}
+.about p{
+	color:hsl(227, 12%, 61%);
+}
+.services p{
+	color: hsl(228, 39%, 23%);
+}
+.services p span{
+	background: hsl(12, 88%, 59%);
+	border-radius: 50px;
+}
+.services-holder p{
+	color:hsl(227, 12%, 61%);
+}
+.services-holder{
+	padding-left: 40px;
+}
+.left-overlay-img{
+	position: absolute;
+	top: 40%;
+	left: -55%;
+	z-index: -1;
+}
+.testimonial{
+	margin-top: 5%;
+	margin-bottom: 8%;
+}
+.item{
+	height: 250px;
+	position: relative;
+}
+.testimonial-img{
+	position: absolute;
+	top: 18%;
+	height: 100%;	
+	background:hsl(0, 0%, 98%);
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.item img{
+	display: block;
+	max-width: 80px;
+	max-height: 80px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 100; 
+}
+.item p{
+	font-size: 14px;
+}
+.simplify{
+	position: relative;
+	background: hsl(12, 88%, 59%);
+	padding: 50px 0px;
+}
+.simplify-holder{
+	z-index: 10;
+}
+.simplify-overlay{
+	background: url("../images/bg-simplify-section-desktop.svg");
+	background-position: bottom left;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+	width: 85%;
+	height: 205px;
+	display: block;
+	margin: 0 auto;
+}
+.simplify-overlay img{
+	width: 100%;
+	height: 100%;
+}
+.simplify .banner-btn{
+	background: #fff;
+	color: hsl(12, 88%, 59%);
+}
+.footer{
+	background: hsl(233, 12%, 13%);
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+.footer-one p a{
+	margin-right: 10px;
+}
+.footer-one p{
+	margin-top: 70px;
+}
+.footer-two ul, .footer-three ul{
+	list-style: none;
+}
+.footer-two ul li, .footer-three ul li{
+	margin-bottom: 10px;
+}
+.footer-four input{
+	font-size: 13px;
+	padding: 20px 10px;
+	border: none;
+	border-radius: 50px;
+}
+.footer-four input:focus{
+	box-shadow: none;
+}
+.footer-four p{
+	color: hsl(227, 12%, 61%); 
+	font-size: 13px;
+	margin-top: 25%;
+}
+
+
+
+
+
+
+
+/*=====================================Media Queries====================================*/
+@media(max-width: 1920px){
+	
+}
+@media(max-width: 1680px){
+	
+}
+@media(max-width: 1440px){
+	
+}
+@media(max-width: 1366px){
+	
+}
+
+@media(max-width: 1280px){
+	
+}
+@media(max-width: 1024px){
+	.menu-holder .main-menu{
+		margin-left: 8%;
+	}
+	.right-btn{
+		margin-top: 10px;
+	}
+	.overlay-img{
+		top: -85%;
+		right: -30%;
+	}
+	.banner h1{
+		font-size: 46px;
+	}
+	.banner p{
+		width: 70%;
+		font-size: 14px;
+	}
+	.banner-img img{
+		max-width: 95%;
+		height: 400px;
+		margin-top: 5%;
+	}
+	.about h1{
+		font-size: 32px;
+	}
+	.about .about-text{
+		font-size: 13px;
+	}
+}
+@media(max-width: 991px){
+	
+}
+@media(max-width: 858px){
+	.checkbtn, .closebtn{
+		display: block;
+	}
+	.closebtn{
+		position: absolute;
+		top: -10px;
+		right: 20px;
+		font-size: 20px;
+	}
+	.mini-menu-controller{
+		display: block;
+		position: absolute;
+		top: 40px;
+		text-align: left;
+		padding-left: 30px;
+	}
+	.main-menu{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgba(37, 43, 70, 0.9);
+		left: -120%;
+		text-align: center;
+		transition: all .5s;
+		margin-top: -30px;
+		padding-top: 100px;
+		z-index: 2;
+	}
+	.main-menu li:nth-child(1){
+		border-top: 1px solid lightgray;
+	}
+	.main-menu li{
+		display: block !important;
+		margin: 10px 30px;
+		padding: 10px 0;
+		border-bottom: 1px solid lightgray;
+	}
+	.main-menu li:nth-child(4){
+		border-bottom: none;
+	}
+	.main-menu .btn{
+		background: unset;
+		margin-left: 0;
+		border: 2px solid white;
+		width: 100% !important;
+	}
+	.main-menu li a{
+		color: #fff;
+	}
+	#check:checked ~ .main-menu{
+		left: 0px;
+	}
+}
+@media(max-width: 800px){
+	
+}
+@media(max-width: 768px){
+	
+}
+@media(max-width: 576px){
+	
+}
+/*=========================================End of Media Quesries======================================*/
+/*.services p{
+	background: hsl(13, 100%, 96%);
+	}*/
