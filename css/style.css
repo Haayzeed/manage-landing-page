@@ -94,12 +94,6 @@ body{
 	max-width: 100%;
 	height: 450px;
 }
-/*.overlay-img{
-	position: absolute;
-	top: -65%;
-	right: -20%;
-	z-index: -1;
-}*/
 .overlay-img{
 	background: url("../images/bg-tablet-pattern.svg");
 	background-repeat: no-repeat;
@@ -113,10 +107,6 @@ body{
 	height: 550px;
 	transform: rotate(180deg);
 }
-/*.overlay-img img{
-	max-width: 90%;
-	height: 700px;
-}*/
 .about{
 	margin-top: 10%;
 	position: relative;
@@ -391,7 +381,10 @@ body{
 	}
 }
 @media(max-width: 858px){
-	.checkbtn, .closebtn{
+	.right-btn, .closebtn{
+		display: none;
+	}
+	.checkbtn {
 		display: block;
 	}
 	.closebtn{
@@ -400,58 +393,70 @@ body{
 		right: 20px;
 		font-size: 20px;
 	}
-	.mini-menu-controller{
-		display: block;
-		position: absolute;
-		top: 40px;
-		text-align: left;
-		padding-left: 30px;
-	}
 	.main-menu{
 		position: fixed;
-		width: 100%;
-		height: 100vh;
-		background: rgba(37, 43, 70, 0.9);
-		left: -120%;
+		width: 85%;
+		margin: 80px auto 0px auto;
+		background: hsl(0, 0%, 98%);
+		left: -100%;
 		text-align: center;
 		transition: all .5s;
-		margin-top: -30px;
-		padding-top: 100px;
+		margin-top: 80px;
+		padding: 20px 0px;
 		z-index: 2;
 	}
-	.main-menu li:nth-child(1){
-		border-top: 1px solid lightgray;
-	}
 	.main-menu li{
+		color: black;
 		display: block !important;
-		margin: 10px 30px;
-		padding: 10px 0;
-		border-bottom: 1px solid lightgray;
-	}
-	.main-menu li:nth-child(4){
-		border-bottom: none;
-	}
-	.main-menu .btn{
-		background: unset;
-		margin-left: 0;
-		border: 2px solid white;
-		width: 100% !important;
+		margin: 10px;
 	}
 	.main-menu li a{
-		color: #fff;
+		color: #000;
+		font-size: 18px;
+		font-weight: bold;
 	}
 	#check:checked ~ .main-menu{
-		left: 0px;
+		left: 5px;
 	}
 }
 @media(max-width: 800px){
-	
+	.footer-two ul li, .footer-three ul li{
+		font-size: 13px;
+	}
+	.footer-four input{
+		font-size: 12px;
+		padding: 20px 20px;
+	}
 }
 @media(max-width: 768px){
 	
 }
-@media(max-width: 576px){
+@media(max-width: 600px){
 	
+}
+@media(max-width: 576px){
+	.overlay-img{
+		top: -90%;
+		right: -5%;
+		width: 85%;
+		height: 500px;
+	}
+	.banner-text{
+		order: 1;
+		text-align: center;
+	}
+	.banner h1{
+		font-size: 42px;
+		margin-top: 0px;
+	}
+	.banner p{
+		font-size: 18px;
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		line-height: 30px;
+	}
+
 }
 /*=========================================End of Media Quesries======================================*/
 /*.services p{
