@@ -245,7 +245,11 @@ body{
 	
 }
 @media(max-width: 1440px){
-	
+	.overlay-img{
+		top: -40%;
+		right: -12.5%;
+		width: 55%;
+	}
 }
 @media(max-width: 1366px){
 	
@@ -386,18 +390,13 @@ body{
 	}
 }
 @media(max-width: 858px){
-	.right-btn, .closebtn{
+	.right-btn, .closebtn, .icon-close{
 		display: none;
 	}
 	.checkbtn {
 		display: block;
 	}
-	.closebtn{
-		position: absolute;
-		top: -10px;
-		right: 20px;
-		font-size: 20px;
-	}
+	
 	.logo{
 		margin-top: 5px;
 	}
@@ -535,10 +534,6 @@ body{
 		font-size: 13px;
 		color: hsl(227, 12%, 61%);
 	}
-
-
-
-
 }
 /*=========================================End of Media Quesries======================================*/
 /*.services p{
