@@ -128,10 +128,16 @@ body{
 	padding-left: 40px;
 }
 .left-overlay-img{
+	background: url("../images/bg-tablet-pattern.svg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: cover;
 	position: absolute;
-	top: 40%;
-	left: -55%;
+	top: 50%;
+	left: -40%;
 	z-index: -1;
+	width: 55%;
+	height: 550px;
 }
 .testimonial{
 	margin-top: 5%;
@@ -284,6 +290,7 @@ body{
 	.services .about-text{
 		font-size: 14px;
 	}
+
 	.testimonial h1, .simplify-holder h1{
 		font-size: 32px;
 	}
@@ -350,12 +357,10 @@ body{
 		margin-left: -15px;
 	}
 	.left-overlay-img{
-		top: 40%;
-		left: -65%;
-	}
-	.left-overlay-img img{
-		max-width: 90%;
-		height: 700px;
+		top: 50%;
+		left: -35%;
+		width: 55%;
+		height: 480px;
 	}
 	.testimonial h1, .simplify-holder h1{
 		font-size: 28px;
@@ -371,10 +376,13 @@ body{
 		margin-right: 5px;
 	}
 	.footer-one p a{
-	margin-right: 0px;
-}
+		margin-right: 0px;
+	}
 	.footer-four p{
 		font-size: 8px;
+	}
+	.simplify-overlay{
+		height: 175px;
 	}
 }
 @media(max-width: 858px){
@@ -390,9 +398,13 @@ body{
 		right: 20px;
 		font-size: 20px;
 	}
+	.logo{
+		margin-top: 5px;
+	}
 	.main-menu{
 		position: fixed;
 		width: 85%;
+		display: block;
 		margin: 80px auto 0px auto;
 		background: hsl(0, 0%, 98%);
 		left: -100%;
@@ -426,7 +438,9 @@ body{
 	}
 }
 @media(max-width: 768px){
-	
+	.footer-one p{
+		margin-top: 50px;
+	}
 }
 @media(max-width: 600px){
 	
