@@ -483,7 +483,9 @@ body{
 		border-top-left-radius: 50px;
 		border-bottom-left-radius: 50px;
 		padding-left: 0;
-		margin-bottom: 0;
+		margin-bottom: 10px;
+		padding-top: 4.5px !important;
+		padding-bottom: 4.5px !important;
 	}
 	.services-holder{
 		padding-left: 0;
@@ -492,6 +494,49 @@ body{
 	.left-overlay-img{
 		display: none;
 	}
+	.simplify{
+		text-align: center;
+	}
+	.simplify-btn{
+		justify-content: center !important;
+		margin-top: 5%;
+	}
+	.simplify-overlay{
+		background: url("../images/bg-simplify-section-mobile.svg");
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		position: absolute;
+		top: 0;
+		left: -10%;
+		z-index: 0;
+		width: 100%;
+		height: 230px;
+	}
+	.footer-four{
+		margin-top: 4%;
+		margin-bottom: 5%;
+	}
+	.footer-one p a{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.footer-one p a img{
+		width: 25px;
+		height: 25px;
+	}
+	.footer-one p{
+		margin-top: 20px;
+	}
+	.footer-one .logo{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.copyright{
+		font-size: 13px;
+		color: hsl(227, 12%, 61%);
+	}
+
+
 
 
 }
